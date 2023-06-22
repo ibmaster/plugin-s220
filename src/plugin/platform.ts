@@ -240,6 +240,7 @@ export class EufySecurityPlatform implements DynamicPlatformPlugin {
       station.getSerial(),
       station.getName(),
       DeviceType[station.getDeviceType()],
+      station.getDeviceType(),
       station.getLANIPAddress(),
     );
 
